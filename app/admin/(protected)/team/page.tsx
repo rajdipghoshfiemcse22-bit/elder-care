@@ -43,7 +43,7 @@ export default async function TeamPage() {
             </div>
             <div className="space-y-2">
               <Label htmlFor="email">Email</Label>
-              <Input id="email" name="email" type="email" placeholder="aditi@goldencare.com" required />
+              <Input id="email" name="email" type="email" placeholder="ayushmanecs@gmail.com" required />
             </div>
             <div className="space-y-2">
               <Label htmlFor="password">Temporary Password</Label>

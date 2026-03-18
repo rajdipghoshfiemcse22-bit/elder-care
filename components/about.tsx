@@ -22,7 +22,7 @@ export function About() {
           </span>
         </div>
         <h2 className="text-balance text-center font-serif text-3xl font-bold text-foreground md:text-4xl">
-          Why Families Choose GoldenCare
+          Why Families Choose Ayushman Elder Care Service
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-pretty text-center text-lg leading-relaxed text-muted-foreground">
           We are your presence in your absence. Founded with the mission to

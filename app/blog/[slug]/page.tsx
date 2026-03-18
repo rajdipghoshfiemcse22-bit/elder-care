@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = await getPublishedBlogPostBySlug(slug)
   if (!post) return { title: "Post Not Found" }
   return {
-    title: `${post.title} | GoldenCare Blog`,
+    title: `${post.title} | Ayushman Elder Care Service Blog`,
     description: post.excerpt,
   }
 }

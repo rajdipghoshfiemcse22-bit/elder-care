@@ -36,7 +36,7 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2">
               <Image
                 src="/logo.jpeg"
-                alt="GoldenCare"
+                alt="Ayushman Elder Care Service"
                 width={160}
                 height={48}
                 className="h-10 w-auto"
@@ -65,7 +65,7 @@ export function Footer() {
               </a>
               <span className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4" />
-                123 Care Street, Suite 200
+                Narendrapur Station Road
               </span>
             </div>
           </div>
@@ -131,7 +131,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 flex flex-col items-center gap-4 border-t border-border pt-8 md:flex-row md:justify-between">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} GoldenCare. All rights reserved.
+            &copy; {new Date().getFullYear()} Ayushman Elder Care Service. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link

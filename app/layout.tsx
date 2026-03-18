@@ -14,7 +14,7 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'GoldenCare | Trusted Elder Care Services',
+  title: 'Ayushman Elder Care Service | Trusted Elder Care Services',
   description:
     'Premium elder care services providing companionship, medical support, home nursing, and complete care management for your loved ones. We are your presence in your absence.',
   generator: 'v0.app',

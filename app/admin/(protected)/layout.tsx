@@ -36,7 +36,7 @@ export default async function ProtectedAdminLayout({
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-primary">Operations Console</p>
-            <h1 className="font-serif text-2xl font-bold text-foreground">GoldenCare Admin</h1>
+            <h1 className="font-serif text-2xl font-bold text-foreground">Ayushman Elder Care Service Admin</h1>
             <p className="text-xs text-muted-foreground">
               {adminUser.name} • {adminUser.role}
             </p>

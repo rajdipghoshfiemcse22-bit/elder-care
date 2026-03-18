@@ -26,15 +26,15 @@ export const services: ServiceItem[] = [
     title: "Elder Care Service",
     slug: "elder-care",
     description:
-      "Comprehensive daily companionship, health monitoring, and emotional support tailored to your loved one's needs.",
+      "Comprehensive companionship, emotional support, visit records, and day-to-day elder assistance tailored to your loved one's needs.",
     longDescription:
-      "Our Elder Care Service is designed to provide holistic, person-centered support for seniors who need daily assistance and companionship. We understand that every individual is unique, and our trained caregivers craft personalized care plans that address physical, emotional, and social well-being. From morning routines to evening check-ins, our team ensures your loved ones feel safe, valued, and connected throughout the day.",
+      "Our Elder Care Service is designed to provide holistic, person-centered support for seniors who need daily assistance and companionship. Every care plan is tailored and includes regular emotional support, progress tracking, and dependable hand-holding for everyday needs. From morning routines to evening check-ins, our team ensures your loved ones feel safe, valued, and connected throughout the day.",
     features: [
       "Personalized daily care plans tailored to individual needs",
       "Trained and background-verified companion caregivers",
       "Health vitals monitoring and medication reminders",
       "Social engagement and mental stimulation activities",
-      "Regular progress reports and family updates",
+      "Service sheet preparation with regular records",
       "Coordination with physicians and specialists",
     ],
     benefits: [
@@ -46,15 +46,15 @@ export const services: ServiceItem[] = [
   },
   {
     icon: Siren,
-    title: "Emergency Service",
+    title: "Medical Exigency Support",
     slug: "emergency",
     description:
-      "24/7 emergency medical support and ambulance services. Immediate response when every second counts.",
+      "24/7 emergency buddy assistance with ambulance coordination and rapid escalation support.",
     longDescription:
-      "When a medical emergency strikes, every second matters. Our Emergency Service provides round-the-clock access to immediate medical response, ensuring your loved ones receive swift, professional care. With our dedicated emergency helpline and network of partnered hospitals and ambulance services, we bridge the gap between the moment of crisis and professional medical intervention.",
+      "When a medical emergency strikes, every second matters. Our Medical Exigency Support service provides round-the-clock immediate response, including emergency buddy assistance, ambulance support, and family notifications. We bridge the gap between the moment of crisis and professional medical intervention.",
     features: [
-      "24/7 dedicated emergency helpline with zero wait time",
-      "Rapid ambulance dispatch to your location",
+      "Emergency buddy assistance available 24/7",
+      "Rapid ambulance coordination and dispatch support",
       "Coordination with nearby hospitals for immediate admission",
       "On-call medical professionals for remote triage",
       "Post-emergency follow-up care and documentation",
@@ -72,14 +72,15 @@ export const services: ServiceItem[] = [
     title: "Home Care Service",
     slug: "home-care",
     description:
-      "Professional home nursing, post-operative care, ICU setup, physiotherapy, and critical care at your doorstep.",
+      "Home-based long-term treatment support including dialysis/cancer assistance, palliative care, and equipment support.",
     longDescription:
-      "Our Home Care Service brings hospital-grade medical care directly to the comfort of your home. Whether your loved one is recovering from surgery, managing a chronic illness, or needs specialized nursing attention, our qualified healthcare professionals deliver exceptional care without the stress and cost of prolonged hospital stays. We offer everything from routine nursing visits to fully equipped home ICU setups.",
+      "Our Home Care Service brings structured medical support to the comfort of home for families managing long-term treatment. Whether your loved one needs dialysis support, cancer treatment assistance, palliative care, or post-procedure recovery, our care teams coordinate dependable support with compassion and consistency.",
     features: [
       "Qualified registered nurses for daily and overnight care",
-      "Post-surgical recovery management and wound care",
-      "Home ICU setup with medical equipment provisioning",
-      "Physiotherapy and rehabilitation programs",
+      "Long-term treatment support for chronic medical conditions",
+      "Dialysis and cancer treatment support coordination",
+      "Medical equipment on rent and home setup support",
+      "Home dental and eye checkup coordination",
       "Chronic disease management and monitoring",
       "Palliative and end-of-life comfort care",
     ],
@@ -95,16 +96,17 @@ export const services: ServiceItem[] = [
     title: "Financial Management",
     slug: "financial-management",
     description:
-      "Bill payments, pension management, premium handling, and bank visit assistance for your parents.",
+      "Bill payments, pension handling, Mediclaim support, Aadhaar/PAN assistance, and bank visit support.",
     longDescription:
-      "Managing finances can become increasingly challenging for seniors, especially when adult children live far away. Our Financial Management service takes the burden off your family by handling day-to-day financial tasks with integrity and transparency. From paying utility bills on time to managing pension paperwork and insurance premiums, we ensure your parents' financial obligations are met smoothly and securely.",
+      "Our Financial Management service is built for families who need reliable on-ground support for routine and compliance-related tasks. We handle utility payments, pension workflows, Mediclaim documentation, Aadhaar/PAN paperwork, and assisted bank visits with transparent reporting and record keeping.",
     features: [
       "Timely utility and household bill payments",
       "Pension collection and documentation management",
       "Insurance premium tracking and renewal reminders",
+      "Mediclaim documentation and claim process support",
+      "Aadhaar/PAN paperwork and update assistance",
       "Assisted bank visits for account management",
       "Transparent monthly financial reports to family",
-      "Secure handling of sensitive financial documents",
     ],
     benefits: [
       "No missed payments or financial lapses",
@@ -118,16 +120,17 @@ export const services: ServiceItem[] = [
     title: "Remote Logistical Support",
     slug: "logistical-support",
     description:
-      "Relocation assistance, grocery shopping, household help coordination, and everyday logistical tasks.",
+      "Relocation, household logistics, staff wage support, appointment movement, and special occasion assistance.",
     longDescription:
-      "Daily logistics can be overwhelming for seniors living independently. Our Remote Logistical Support service handles the practical tasks of everyday life so your loved ones can focus on what matters most -- their health and happiness. From coordinating household help and grocery delivery to managing home repairs and relocation needs, we serve as a reliable local presence for your family.",
+      "Our Remote Logistical Support service manages the practical ground-level tasks that families often struggle to coordinate from a distance. This includes groceries and essentials, household staff coordination, wage management, relocation support, appointments and transportation, and event support for birthdays/anniversaries.",
     features: [
       "Regular grocery and essential supplies delivery",
       "Household staff coordination and management",
+      "Wage management support for home staff",
       "Home maintenance and repair scheduling",
       "Relocation planning and execution assistance",
+      "Special occasion support (birthdays/anniversaries)",
       "Appointment scheduling and transportation",
-      "Seasonal home preparation and upkeep",
     ],
     benefits: [
       "Seamless daily life without logistical worries",
@@ -141,12 +144,13 @@ export const services: ServiceItem[] = [
     title: "Legal Advisory",
     slug: "legal-advisory",
     description:
-      "Access to experienced legal experts for cybercrime, fraud protection, and any legal matters your family faces.",
+      "Legal guidance for fraud/cyber incidents, document review, Mediclaim disputes, and senior-focused legal issues.",
     longDescription:
-      "Seniors are often targeted by scams, fraud, and cybercrime. Our Legal Advisory service connects your family with experienced legal professionals who specialize in elder law and fraud prevention. Whether it's reviewing important documents, protecting against online threats, or navigating complex legal matters, our team provides trustworthy guidance and representation to keep your loved ones safe and their interests protected.",
+      "Our Legal Advisory service connects families with vetted legal professionals for senior-focused matters. We support fraud and cybercrime response, legal-document review, Mediclaim/legal issue handling, and regulatory paperwork so families can act quickly and correctly.",
     features: [
       "Access to vetted elder law attorneys and legal experts",
       "Cybercrime awareness training and fraud prevention",
+      "Guidance for mediclaim/legal documentation issues",
       "Document review for contracts, wills, and agreements",
       "Legal representation for disputes and claims",
       "Assistance with government and regulatory paperwork",
@@ -164,11 +168,12 @@ export const services: ServiceItem[] = [
     title: "Property Management",
     slug: "property-management",
     description:
-      "Complete property oversight including maintenance, tenant management, and documentation for your assets.",
+      "Property oversight including inspection, maintenance, tenant handling, renovation, and documentation support.",
     longDescription:
-      "Managing property from a distance is one of the biggest challenges for families with aging parents. Our Property Management service provides comprehensive oversight of your family's real estate assets. From routine maintenance and tenant management to documentation handling and property inspections, we ensure your properties are well-maintained, generating income, and fully compliant with local regulations.",
+      "Our Property Management service offers end-to-end oversight for families managing assets remotely. We handle routine inspections, tenant workflows, maintenance execution, emergency repairs, property documentation, and home renovation/interior coordination through trusted local partners.",
     features: [
       "Regular property inspections and condition reports",
+      "Home renovation and interior design coordination",
       "Tenant screening, rent collection, and lease management",
       "Maintenance coordination with trusted local vendors",
       "Property tax filing and documentation management",
@@ -184,25 +189,25 @@ export const services: ServiceItem[] = [
   },
   {
     icon: GraduationCap,
-    title: "Educational Assistance",
+    title: "Documentation & Technology Assistance",
     slug: "educational-assistance",
     description:
-      "Transcript retrieval, educational document management, and academic record assistance for family members.",
+      "Service-sheet records, document handling, and hand-holding support for technology troubleshooting.",
     longDescription:
-      "Educational documentation needs don't stop with graduation. Whether your family needs to retrieve academic transcripts, manage educational records, or navigate institutional paperwork across cities, our Educational Assistance service handles it all. We work directly with schools, colleges, and universities on your behalf to ensure timely retrieval and proper handling of all educational documents.",
+      "This service focuses on practical execution: maintaining service sheets, organizing records, and helping seniors with day-to-day technology use. We provide hand-holding support for phones, apps, and digital tasks so families can maintain continuity and transparency.",
     features: [
-      "Academic transcript and certificate retrieval",
-      "University and college liaison for document processing",
-      "Educational record verification and attestation",
-      "Application assistance for senior learning programs",
+      "Service sheet maintenance and family-facing updates",
+      "Hand-holding support for technology troubleshooting",
+      "Digital payment and app-use guidance for seniors",
+      "Document collection, verification, and safe organization",
       "Document digitization and secure storage",
       "Multi-city and multi-institution coordination",
     ],
     benefits: [
-      "No need to travel for document retrieval",
-      "Expert handling of complex institutional bureaucracy",
+      "Less stress for seniors during digital and paperwork tasks",
       "Secure and organized management of important records",
-      "Quick turnaround on time-sensitive document needs",
+      "Reduced dependency on unknown third parties",
+      "Faster resolution of time-sensitive documentation needs",
     ],
   },
 ]

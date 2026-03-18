@@ -9,36 +9,36 @@ import { Button } from "@/components/ui/button"
 
 const faqs = [
   {
-    q: "Can I request a different caregiver if needed?",
-    a: "Absolutely. Your comfort matters to us. If you're not satisfied with your assigned caregiver, simply let us know and we'll promptly arrange a replacement. We also do our best to assign the same caregiver for each visit to build a consistent, trusting relationship.",
+    q: "Do you provide emergency support any time of day?",
+    a: "Yes. Our Medical Exigency Support includes 24/7 emergency buddy assistance and ambulance coordination so your family can get immediate help during urgent situations.",
   },
   {
-    q: "Are services only available for plan members?",
-    a: "Once you sign up for any of our care plans, you gain access to all facilities. However, services like property management, financial management, and legal advisory can be booked anytime without a membership via phone or email.",
+    q: "Can you help with long-term treatment like dialysis or cancer care?",
+    a: "Yes. We support long-term treatment journeys including dialysis and cancer treatment coordination, hospital visit support, and continuity of care at home.",
   },
   {
-    q: "How do I choose the right care plan?",
-    a: "Our plans are designed based on different stages of aging, mobility, and emotional needs. What works for a 65-year-old may differ from what's suitable for an 85-year-old. Our team will help you assess the right level of support during your initial consultation.",
+    q: "Do you offer palliative and emotional support at home?",
+    a: "Absolutely. We provide compassionate palliative support at home along with regular emotional support and monitoring to improve comfort and dignity.",
   },
   {
-    q: "Are you available 24/7 for emergencies?",
-    a: "Yes, we are available 24/7, rain or storm. Every membership includes a dedicated emergency contact number. Anyone can call us during a medical emergency, and we'll be there to assist your loved one immediately.",
+    q: "Can you arrange medical equipment and home assistants?",
+    a: "Yes. We help arrange medical equipment on rent and coordinate trained home assistants based on your loved one’s condition and care plan.",
   },
   {
-    q: "Can you assist with technology issues or fraud prevention?",
-    a: "Every plan includes technology troubleshooting assistance. If your parents encounter cybercrime or fraud, our team of legal experts is available to handle the situation while we provide emotional support throughout the process.",
+    q: "Can you assist with Mediclaim, Aadhaar, PAN, and legal paperwork?",
+    a: "Yes. We provide practical support for Mediclaim workflows, Aadhaar/PAN documentation, and legal advisory needs so families can avoid delays and confusion.",
   },
   {
-    q: "Do you offer support during medical procedures like dialysis?",
-    a: "Yes, we provide companionship and support during doctor visits, dialysis, chemotherapy, and more. For post-operative care, our caregivers offer daily visits and are trained to monitor vital parameters, just like a family member would.",
+    q: "Do you maintain records of each visit and care task?",
+    a: "Yes. We maintain service sheets for each visit, keep records updated, and share structured updates with family members for transparency and continuity.",
   },
   {
-    q: "Can you help if my parents want to relocate?",
-    a: "We handle everything from packing and moving to setting up the new home with essentials like utilities, hiring household help, and making the transition as smooth and stress-free as possible.",
+    q: "Can you manage home logistics and special occasions?",
+    a: "Yes. We support relocation, home logistics, wage support for home staff, and special-occasion arrangements like birthdays and anniversaries.",
   },
   {
-    q: "What if my parent has dementia and needs daily assistance?",
-    a: "We provide complete daily support including bill payments, grocery shopping, bank visits, and household organization. Our trained caregivers are experienced in working with dementia patients and provide compassionate, patient assistance.",
+    q: "Do you provide technology hand-holding for seniors?",
+    a: "Yes. We offer step-by-step technology troubleshooting help for calls, apps, digital payments, and basic device usage so seniors can stay connected and safe.",
   },
 ]
 

@@ -12,7 +12,7 @@ export default function UnauthorizedPage() {
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
             <span className="text-sm font-bold text-primary-foreground">G</span>
           </div>
-          <span className="font-serif text-xl font-bold text-foreground">GoldenCare</span>
+          <span className="font-serif text-xl font-bold text-foreground">Ayushman Elder Care Service</span>
         </div>
         <p className="text-sm font-semibold uppercase tracking-widest text-primary">Admin Access</p>
         <h1 className="mt-3 font-serif text-3xl font-bold text-foreground">Unauthorized</h1>

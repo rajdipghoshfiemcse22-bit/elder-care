@@ -24,7 +24,7 @@ export const blogPosts: BlogPost[] = [
       "Physical activity doesn't need to be strenuous to be effective. Walking for 30 minutes a day, gentle yoga, or swimming can dramatically improve cardiovascular function. The key is consistency rather than intensity. Always consult with a physician before starting any new exercise regimen.",
       "Stress management is often overlooked but equally vital. Chronic stress elevates cortisol levels, which can damage blood vessels over time. Meditation, deep breathing exercises, social engagement, and hobbies all contribute to lower stress levels and better heart health.",
       "Medication adherence is another critical factor. Many seniors take multiple medications, and missing doses or combining them incorrectly can have serious cardiac consequences. Using pill organizers, setting reminders, or having a caregiver manage medications can ensure proper adherence.",
-      "At GoldenCare, our Elder Care Service includes daily health monitoring where trained caregivers track vital signs, manage medication schedules, and coordinate with your loved one's healthcare providers. We believe proactive care is the best defense against heart disease.",
+      "At Ayushman Elder Care Service, our Elder Care Service includes daily health monitoring where trained caregivers track vital signs, manage medication schedules, and coordinate with your loved one's healthcare providers. We believe proactive care is the best defense against heart disease.",
     ],
   },
   {
@@ -42,7 +42,7 @@ export const blogPosts: BlogPost[] = [
       "Financial and legal planning should be addressed proactively. Ensure all important documents -- wills, power of attorney, medical directives, insurance policies -- are updated and accessible. Setting up online banking and automatic bill payments prevents financial lapses that can cause stress for everyone.",
       "Don't underestimate the emotional toll on yourself. Caregiver burnout affects long-distance caregivers too. Feelings of guilt, helplessness, and anxiety are common. Joining support groups, speaking with a counselor, or simply sharing your experience with friends can help you manage these emotions.",
       "Planning your visits strategically maximizes their impact. Rather than trying to do everything in one trip, focus on specific goals: attending doctor's appointments, organizing the home, reviewing finances, or simply spending quality time together. Document everything so you can follow up remotely.",
-      "Professional elder care services like GoldenCare exist precisely to fill the gap that distance creates. Our comprehensive approach covers daily care, emergency response, financial management, and logistical support -- essentially serving as your trusted presence when you can't be there. We provide regular updates and transparent reporting so you always know exactly how your loved ones are doing.",
+      "Professional elder care services like Ayushman Elder Care Service exist precisely to fill the gap that distance creates. Our comprehensive approach covers daily care, emergency response, financial management, and logistical support -- essentially serving as your trusted presence when you can't be there. We provide regular updates and transparent reporting so you always know exactly how your loved ones are doing.",
     ],
   },
   {
@@ -60,7 +60,7 @@ export const blogPosts: BlogPost[] = [
       "Hydration is frequently overlooked in elder care. The sensation of thirst diminishes with age, making dehydration a common and dangerous issue. Caregivers should encourage regular fluid intake throughout the day, including water, herbal teas, and water-rich fruits like watermelon and cucumbers.",
       "Fiber intake supports digestive health, which commonly deteriorates in older adults. Whole grains, fruits, vegetables, and legumes should be staples in a senior's diet. Adequate fiber also helps manage cholesterol and blood sugar levels, reducing the risk of diabetes and cardiovascular disease.",
       "Meal planning and preparation can be significant barriers for seniors living independently. Difficulty with mobility, cooking fatigue, or cognitive decline can all lead to poor eating habits. Preparing meals in advance, using meal delivery services, or having a caregiver assist with cooking ensures consistent, nutritious meals.",
-      "At GoldenCare, nutrition is a cornerstone of our care approach. Our caregivers are trained to prepare balanced, appealing meals that meet individual dietary requirements and preferences. We work closely with nutritionists and your loved one's physician to create meal plans that support optimal health and genuine enjoyment of food.",
+      "At Ayushman Elder Care Service, nutrition is a cornerstone of our care approach. Our caregivers are trained to prepare balanced, appealing meals that meet individual dietary requirements and preferences. We work closely with nutritionists and your loved one's physician to create meal plans that support optimal health and genuine enjoyment of food.",
     ],
   },
 ]

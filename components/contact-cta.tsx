@@ -23,7 +23,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Visit Us",
-    value: "123 Care Street, Suite 200",
+    value: "Narendrapur Station Road",
     href: "#",
   },
 ]
@@ -172,7 +172,7 @@ export function ContactCta() {
                       id="phone"
                       name="phone"
                       type="tel"
-                      placeholder="+1 (555) 000-0000"
+                      placeholder="+91 1234567890"
                     />
                   </div>
 

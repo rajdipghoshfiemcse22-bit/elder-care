@@ -10,28 +10,28 @@ const testimonials = [
     name: "Sarah Mitchell",
     relationship: "Daughter",
     location: "New York, NY",
-    text: "GoldenCare has been a blessing for our family. Living abroad, I was constantly worried about my mother. Their team treats her like family. From medical checkups to daily companionship, they handle everything with such warmth.",
+    text: "Ayushman Elder Care Service has been a blessing for our family. Living abroad, I was constantly worried about my mother. Their team treats her like family. From medical checkups to daily companionship, they handle everything with such warmth.",
     rating: 5,
   },
   {
     name: "Robert & Linda Chen",
     relationship: "Son & Daughter-in-law",
     location: "San Francisco, CA",
-    text: "We joined the GoldenCare family six months ago. Our assigned caregiver, Maria, is incredibly dependable and hardworking. My father-in-law looks forward to her visits. We couldn't be more satisfied.",
+    text: "We joined the Ayushman Elder Care Service family six months ago. Our assigned caregiver, Maria, is incredibly dependable and hardworking. My father-in-law looks forward to her visits. We couldn't be more satisfied.",
     rating: 5,
   },
   {
     name: "James Thompson",
     relationship: "Son",
     location: "Chicago, IL",
-    text: "I am relieved to see my parents happy. The level of care and thoughtfulness from GoldenCare is extraordinary. They helped my father through his recovery after surgery and the physiotherapy support was outstanding.",
+    text: "I am relieved to see my parents happy. The level of care and thoughtfulness from Ayushman Elder Care Service is extraordinary. They helped my father through his recovery after surgery and the physiotherapy support was outstanding.",
     rating: 5,
   },
   {
     name: "Patricia Williams",
     relationship: "Granddaughter",
     location: "Austin, TX",
-    text: "Thank you GoldenCare for taking such good care of my grandmother. I highly recommend this organization. They do not treat clients as a number and provide care as if they are family members. Truly special.",
+    text: "Thank you Ayushman Elder Care Service for taking such good care of my grandmother. I highly recommend this organization. They do not treat clients as a number and provide care as if they are family members. Truly special.",
     rating: 5,
   },
 ]
@@ -58,7 +58,7 @@ export function Testimonials() {
           What Families Say About Us
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-pretty text-center text-lg leading-relaxed text-muted-foreground">
-          Real stories from real families who trust GoldenCare to look after
+          Real stories from real families who trust Ayushman Elder Care Service to look after
           their loved ones.
         </p>
 

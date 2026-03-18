@@ -31,7 +31,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
-            We are your presence in your absence. GoldenCare provides premium
+            We are your presence in your absence. Ayushman Elder Care Service provides premium
             elder care services including companionship, medical support, home
             nursing, and complete care management for your loved ones.
           </p>

@@ -47,7 +47,7 @@ export default function AdminLoginPage() {
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
             <span className="text-sm font-bold text-primary-foreground">G</span>
           </div>
-          <span className="font-serif text-xl font-bold text-foreground">GoldenCare</span>
+          <span className="font-serif text-xl font-bold text-foreground">Ayushman Elder Care Service</span>
         </Link>
 
         <span className="inline-flex rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary">

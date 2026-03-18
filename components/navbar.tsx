@@ -64,7 +64,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/logo.jpeg"
-            alt="GoldenCare"
+            alt="Ayushman Elder Care Service"
             width={160}
             height={48}
             className="h-10 w-auto"

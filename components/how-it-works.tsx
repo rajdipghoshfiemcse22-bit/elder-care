@@ -45,7 +45,7 @@ export function HowItWorks() {
           Simple Steps to Peace of Mind
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-pretty text-center text-lg leading-relaxed text-muted-foreground">
-          Getting started with GoldenCare is easy. Here&apos;s how we bring
+          Getting started with Ayushman Elder Care Service is easy. Here&apos;s how we bring
           trusted care to your family.
         </p>
 
