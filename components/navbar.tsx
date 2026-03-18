@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { Menu, X, Phone, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -61,12 +62,14 @@ export function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-            <span className="text-lg font-bold text-primary-foreground">G</span>
-          </div>
-          <span className="text-xl font-bold text-foreground font-serif">
-            GoldenCare
-          </span>
+          <Image
+            src="/logo.jpeg"
+            alt="GoldenCare"
+            width={160}
+            height={48}
+            className="h-10 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop Nav */}
@@ -157,11 +160,11 @@ export function Navbar() {
         {/* CTA */}
         <div className="hidden items-center gap-4 lg:flex">
           <Link
-            href="tel:+1800555CARE"
+            href="tel:+919883608282"
             className="flex items-center gap-2 text-sm font-medium text-foreground"
           >
             <Phone className="h-4 w-4 text-primary" />
-            1-800-555-CARE
+            9883608282 / 6290601110
           </Link>
           <Button asChild>
             <Link href="/#contact">Book a Consultation</Link>
@@ -247,11 +250,11 @@ export function Navbar() {
 
             <hr className="border-border" />
             <Link
-              href="tel:+1800555CARE"
+              href="tel:+919883608282"
               className="flex items-center gap-2 text-base font-medium text-foreground"
             >
               <Phone className="h-4 w-4 text-primary" />
-              1-800-555-CARE
+              9883608282 / 6290601110
             </Link>
             <Button asChild className="w-full">
               <Link href="/#contact" onClick={() => setMobileOpen(false)}>

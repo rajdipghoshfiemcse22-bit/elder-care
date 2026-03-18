@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Phone, Mail, MapPin } from "lucide-react"
 
 const navigation = {
@@ -33,14 +34,13 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-                <span className="text-lg font-bold text-primary-foreground">
-                  G
-                </span>
-              </div>
-              <span className="text-xl font-bold text-foreground font-serif">
-                GoldenCare
-              </span>
+              <Image
+                src="/logo.jpeg"
+                alt="GoldenCare"
+                width={160}
+                height={48}
+                className="h-10 w-auto"
+              />
             </Link>
             <p className="mt-4 max-w-sm leading-relaxed text-muted-foreground">
               We are your presence in your absence. Providing trusted,
@@ -50,18 +50,18 @@ export function Footer() {
 
             <div className="mt-6 flex flex-col gap-3">
               <a
-                href="tel:+1800555CARE"
+                href="tel:+919883608282"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary"
               >
                 <Phone className="h-4 w-4" />
-                1-800-555-CARE
+                9883608282 / 6290601110
               </a>
               <a
-                href="mailto:hello@goldencare.com"
+                href="mailto:ayushmanecs@gmail.com"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary"
               >
                 <Mail className="h-4 w-4" />
-                hello@goldencare.com
+                ayushmanecs@gmail.com
               </a>
               <span className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4" />

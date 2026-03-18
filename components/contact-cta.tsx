@@ -11,14 +11,14 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Call Us",
-    value: "1-800-555-CARE",
-    href: "tel:+1800555CARE",
+    value: "9883608282 / 6290601110",
+    href: "tel:+919883608282",
   },
   {
     icon: Mail,
     label: "Email Us",
-    value: "hello@goldencare.com",
-    href: "mailto:hello@goldencare.com",
+    value: "ayushmanecs@gmail.com",
+    href: "mailto:ayushmanecs@gmail.com",
   },
   {
     icon: MapPin,
@@ -45,7 +45,7 @@ export function ContactCta() {
       firstName: String(formData.get("firstName") || "").trim(),
       lastName: String(formData.get("lastName") || "").trim(),
       email: String(formData.get("email") || "").trim(),
-      phone: String(formData.get("phone") || "").trim(),
+      phone: String(formData.get("phone") || "").trim() || undefined,
       message: String(formData.get("message") || "").trim(),
       service: "General Consultation",
     }

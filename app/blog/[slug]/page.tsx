@@ -108,10 +108,10 @@ export default async function BlogPage({ params }: Props) {
                   Get in Touch
                 </Link>
                 <Link
-                  href="tel:+1800555CARE"
+                  href="tel:+919883608282"
                   className="inline-flex items-center rounded-lg border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
                 >
-                  Call 1-800-555-CARE
+                  Call 9883608282 / 6290601110
                 </Link>
               </div>
             </div>

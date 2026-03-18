@@ -77,11 +77,11 @@ export default async function ServicePage({ params }: Props) {
                 <Link href="/#contact">Schedule a Consultation</Link>
               </Button>
               <Link
-                href="tel:+1800555CARE"
+                href="tel:+919883608282"
                 className="flex items-center gap-2 text-sm font-medium text-primary-foreground/80 transition-colors hover:text-primary-foreground"
               >
                 <Phone className="h-4 w-4" />
-                1-800-555-CARE
+                9883608282 / 6290601110
               </Link>
             </div>
           </div>
@@ -156,10 +156,10 @@ export default async function ServicePage({ params }: Props) {
                     <div className="mt-4 flex items-center justify-center gap-2 text-sm text-muted-foreground">
                       <Phone className="h-4 w-4 text-primary" />
                       <a
-                        href="tel:+1800555CARE"
+                        href="tel:+919883608282"
                         className="font-medium text-foreground hover:text-primary"
                       >
-                        1-800-555-CARE
+                        9883608282 / 6290601110
                       </a>
                     </div>
                     <p className="mt-4 text-center text-xs text-muted-foreground">

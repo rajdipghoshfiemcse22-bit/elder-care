@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
 import { prisma } from '@/lib/prisma'
+import { sendConsultationNotificationEmail } from '@/lib/consultation-email'
 
 const consultationSchema = z.object({
   firstName: z.string().trim().min(1).max(80),
@@ -28,12 +29,39 @@ export async function POST(request: Request) {
         city: parsed.city || null,
         source: 'website',
       },
-      select: { id: true },
+      select: {
+        id: true,
+        firstName: true,
+        lastName: true,
+        email: true,
+        phone: true,
+        message: true,
+        service: true,
+        city: true,
+        createdAt: true,
+      },
     })
+
+    try {
+      await sendConsultationNotificationEmail({
+        inquiryId: inquiry.id,
+        firstName: inquiry.firstName,
+        lastName: inquiry.lastName,
+        email: inquiry.email,
+        phone: inquiry.phone,
+        message: inquiry.message,
+        service: inquiry.service,
+        city: inquiry.city,
+        createdAt: inquiry.createdAt,
+      })
+    } catch (emailError) {
+      console.error('Failed to send consultation notification email:', emailError)
+    }
 
     return NextResponse.json({ ok: true, id: inquiry.id })
   } catch (error) {
     if (error instanceof z.ZodError) {
+      console.error('Consultation validation error:', error.flatten())
       return NextResponse.json(
         {
           ok: false,
@@ -44,6 +72,7 @@ export async function POST(request: Request) {
       )
     }
 
+    console.error('Consultation submission error:', error)
     return NextResponse.json(
       { ok: false, error: 'Failed to submit consultation request' },
       { status: 500 },
