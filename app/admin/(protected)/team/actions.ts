@@ -5,7 +5,7 @@ import { revalidatePath } from 'next/cache'
 import { z } from 'zod'
 import { logAdminAction, requireSuperAdminSession } from '@/lib/admin-auth'
 import { prisma } from '@/lib/prisma'
-import { AdminRole } from '@/lib/generated/prisma/enums'
+import { AdminRole } from '@prisma/client'
 import { hashPassword } from 'better-auth/crypto'
 
 const createTeamMemberSchema = z.object({

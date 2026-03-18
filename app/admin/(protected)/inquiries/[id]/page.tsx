@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { AdminRole, InquiryPriority, InquiryStatus } from '@/lib/generated/prisma/enums'
+import { AdminRole, InquiryPriority, InquiryStatus } from '@prisma/client'
 import { requireInquiryViewSession } from '@/lib/admin-auth'
 import { prisma } from '@/lib/prisma'
 import { addInquiryNoteAction, updateInquiryAction } from '../actions'

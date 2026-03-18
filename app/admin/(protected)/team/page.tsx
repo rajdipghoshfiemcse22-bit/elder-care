@@ -1,4 +1,4 @@
-import { AdminRole } from '@/lib/generated/prisma/enums'
+import { AdminRole } from '@prisma/client'
 import { requireSuperAdminSession } from '@/lib/admin-auth'
 import { prisma } from '@/lib/prisma'
 import { Button } from '@/components/ui/button'

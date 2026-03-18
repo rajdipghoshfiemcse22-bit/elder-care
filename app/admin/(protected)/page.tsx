@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { prisma } from '@/lib/prisma'
-import { InquiryStatus } from '@/lib/generated/prisma/enums'
+import { InquiryStatus } from '@prisma/client'
 import { requireAdminSession } from '@/lib/admin-auth'
 import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'

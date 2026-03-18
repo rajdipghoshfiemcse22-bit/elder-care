@@ -4,7 +4,7 @@ import { redirect } from 'next/navigation'
 import { auth } from '@/lib/auth'
 import { requireAdminSession } from '@/lib/admin-auth'
 import { Button } from '@/components/ui/button'
-import { AdminRole } from '@/lib/generated/prisma/enums'
+import { AdminRole } from '@prisma/client'
 
 async function signOutAction() {
   'use server'

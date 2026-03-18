@@ -1,7 +1,7 @@
 'use server'
 
 import { revalidatePath } from 'next/cache'
-import { InquiryPriority, InquiryStatus } from '@/lib/generated/prisma/enums'
+import { InquiryPriority, InquiryStatus } from '@prisma/client'
 import { logAdminAction, requireAdminSession, requireInquiryManageSession, requireInquiryViewSession } from '@/lib/admin-auth'
 import { prisma } from '@/lib/prisma'
 
