@@ -1,0 +1,8 @@
+Loaded Prisma config from prisma.config.ts.
+
+Prisma config detected, skipping environment variable loading.
+Prisma schema loaded from prisma\schema.prisma
+Error: 
+EPERM: operation not permitted, rename 'C:\Users\Rajdip\Downloads\elder-care-website\lib\generated\prisma\query_engine-windows.dll.node.tmp36320' -> 'C:\Users\Rajdip\Downloads\elder-care-website\lib\generated\prisma\query_engine-windows.dll.node'
+
+
